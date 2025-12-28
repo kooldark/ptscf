@@ -1,8 +1,8 @@
 {
   "id": "384e3a51-24be-4598-a18f-4ba111ce42fc",
   "revision": 0,
-  "last_node_id": 118,
-  "last_link_id": 694,
+  "last_node_id": 126,
+  "last_link_id": 708,
   "nodes": [
     {
       "id": 5,
@@ -16,7 +16,7 @@
         26
       ],
       "flags": {},
-      "order": 17,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -58,7 +58,7 @@
         26
       ],
       "flags": {},
-      "order": 16,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -100,7 +100,7 @@
         146
       ],
       "flags": {},
-      "order": 12,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -143,10 +143,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "sd-ppp",
+        "aux_id": "zombieyang/sd-ppp",
         "ver": "1.8.6",
         "Node name for S&R": "Get Image From Photoshop Layer",
-        "aux_id": "zombieyang/sd-ppp",
+        "cnr_id": "sd-ppp",
         "sdppp-version": "507",
         "ue_properties": {
           "version": "7.1",
@@ -155,7 +155,7 @@
         }
       },
       "widgets_values": [
-        null,
+        "PS_lu9/### Active Document ###",
         "",
         ""
       ]
@@ -203,10 +203,10 @@
       ],
       "title": ".Get Document",
       "properties": {
-        "cnr_id": "sd-ppp",
+        "aux_id": "zombieyang/sd-ppp",
         "ver": "1.8.6",
         "Node name for S&R": "SDPPP Get Document",
-        "aux_id": "zombieyang/sd-ppp",
+        "cnr_id": "sd-ppp",
         "sdppp-version": "507",
         "sdppp_widgetable_title": ".Get Document",
         "ue_properties": {
@@ -216,7 +216,7 @@
         }
       },
       "widgets_values": [
-        null,
+        "PS_lu9/### Active Document ###",
         "",
         ""
       ]
@@ -235,7 +235,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 8,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -263,10 +263,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "sd-ppp",
+        "aux_id": "zombieyang/sd-ppp",
         "ver": "1.9.0",
         "Node name for S&R": "SDPPP Get Selection",
-        "aux_id": "zombieyang/sd-ppp",
+        "cnr_id": "sd-ppp",
         "sdppp-version": "507",
         "ue_properties": {
           "version": "7.1",
@@ -290,7 +290,7 @@
         146
       ],
       "flags": {},
-      "order": 6,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -335,10 +335,10 @@
       ],
       "title": ".Get Layer Output",
       "properties": {
-        "cnr_id": "sd-ppp",
+        "aux_id": "zombieyang/sd-ppp",
         "ver": "1.8.6",
         "Node name for S&R": "SDPPP Get Layer By ID",
-        "aux_id": "zombieyang/sd-ppp",
+        "cnr_id": "sd-ppp",
         "layerWidgetDetail2": {
           "level": 0,
           "id": 1,
@@ -361,47 +361,6 @@
       ]
     },
     {
-      "id": 100,
-      "type": "Reroute",
-      "pos": [
-        2838.64501953125,
-        757.2042236328125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 663
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "VAE",
-          "links": [
-            664,
-            665
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false,
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.1",
-          "input_ue_unconnectable": {}
-        }
-      }
-    },
-    {
       "id": 20,
       "type": "PreviewImage",
       "pos": [
@@ -413,7 +372,7 @@
         246.00001525878906
       ],
       "flags": {},
-      "order": 22,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -451,7 +410,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 20,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -501,7 +460,7 @@
         78
       ],
       "flags": {},
-      "order": 21,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -526,10 +485,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-inpaint-cropandstitch",
+        "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch",
         "ver": "2.1.7",
         "Node name for S&R": "InpaintStitch",
-        "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch",
+        "cnr_id": "comfyui-inpaint-cropandstitch",
         "ue_properties": {
           "widget_ue_connectable": {
             "rescale_algorithm": true
@@ -554,7 +513,7 @@
         146
       ],
       "flags": {},
-      "order": 7,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -597,10 +556,10 @@
       ],
       "title": ".Get all",
       "properties": {
-        "cnr_id": "sd-ppp",
+        "aux_id": "zombieyang/sd-ppp",
         "ver": "1.8.6",
         "Node name for S&R": "SDPPP Get Layer By ID",
-        "aux_id": "zombieyang/sd-ppp",
+        "cnr_id": "sd-ppp",
         "layerWidgetDetail2": {
           "id": 0,
           "name": "",
@@ -633,7 +592,7 @@
         154.6897735595703
       ],
       "flags": {},
-      "order": 23,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -666,10 +625,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "sd-ppp",
+        "aux_id": "zombieyang/sd-ppp",
         "ver": "1.8.6",
         "Node name for S&R": "Send Images To Photoshop",
-        "aux_id": "zombieyang/sd-ppp",
+        "cnr_id": "sd-ppp",
         "sdppp_send_prefix": "",
         "sdppp-version": "507",
         "ue_properties": {
@@ -679,7 +638,7 @@
         }
       },
       "widgets_values": [
-        null,
+        "PS_lu9/### Active Document ###",
         "### New Layer ###",
         ""
       ]
@@ -696,7 +655,7 @@
         458
       ],
       "flags": {},
-      "order": 15,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -756,10 +715,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-inpaint-cropandstitch",
+        "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch",
         "ver": "2.1.7",
         "Node name for S&R": "InpaintCrop",
-        "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch",
+        "cnr_id": "comfyui-inpaint-cropandstitch",
         "ue_properties": {
           "widget_ue_connectable": {
             "context_expand_pixels": true,
@@ -816,7 +775,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 9,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -916,67 +875,6 @@
       ]
     },
     {
-      "id": 18,
-      "type": "CLIPTextEncode",
-      "pos": [
-        3537.4694213867188,
-        444.6461944580078
-      ],
-      "size": [
-        210.29940795898438,
-        88
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 14,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "clip",
-          "name": "clip",
-          "type": "CLIP",
-          "link": 660
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "link": 689
-        }
-      ],
-      "outputs": [
-        {
-          "label": "CONDITIONING",
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
-          "links": [
-            294
-          ]
-        }
-      ],
-      "title": ". Mô tả tiếng anh",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.41",
-        "Node name for S&R": "CLIPTextEncode",
-        "sdppp_widgetable_title": ". Mô tả tiếng anh",
-        "ue_properties": {
-          "version": "7.1",
-          "widget_ue_connectable": {
-            "text": true
-          },
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "woman"
-      ]
-    },
-    {
       "id": 6,
       "type": "InpaintModelConditioning",
       "pos": [
@@ -990,7 +888,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 18,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -1065,11 +963,11 @@
       ]
     },
     {
-      "id": 113,
-      "type": "PrimitiveString",
+      "id": 118,
+      "type": "SimpleMathInt+",
       "pos": [
-        2667.900024617513,
-        576.4711789618598
+        1763.90007039388,
+        890.871142340766
       ],
       "size": [
         270,
@@ -1081,42 +979,85 @@
       "inputs": [],
       "outputs": [
         {
-          "name": "STRING",
-          "type": "STRING",
+          "name": "INT",
+          "type": "INT",
           "links": [
-            690
+            693,
+            694
           ]
         }
       ],
-      "title": "# Mo ta Tieng Anh",
+      "title": "# pixels",
       "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.6.0",
-        "Node name for S&R": "PrimitiveString",
+        "aux_id": "cubiq/ComfyUI_essentials",
+        "ver": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9",
+        "Node name for S&R": "SimpleMathInt+",
+        "cnr_id": "comfyui_essentials",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.5.2"
         },
-        "sdppp_widgetable_title": "# Mo ta Tieng Anh"
+        "sdppp_widgetable_title": "# pixels"
       },
       "widgets_values": [
-        "MEN"
+        1024
       ]
     },
     {
-      "id": 112,
+      "id": 100,
+      "type": "Reroute",
+      "pos": [
+        2829.0450439453125,
+        1033.2042236328125
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 663
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            664,
+            665
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 121,
       "type": "StringConcatenate",
       "pos": [
-        2961.4999849446613,
-        479.6711606513129
+        3039.1002046712238,
+        149.47123999701603
       ],
       "size": [
         400,
         200
       ],
       "flags": {},
-      "order": 11,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -1125,7 +1066,15 @@
           "widget": {
             "name": "string_a"
           },
-          "link": 690
+          "link": 708
+        },
+        {
+          "name": "string_b",
+          "type": "STRING",
+          "widget": {
+            "name": "string_b"
+          },
+          "link": 696
         }
       ],
       "outputs": [
@@ -1133,7 +1082,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            689
+            701
           ]
         }
       ],
@@ -1149,23 +1098,173 @@
       },
       "widgets_values": [
         "",
-        "realistic photography, natural skin texture, soft lighting, natural expression, detailed face, photo-realistic, high quality, cinematic look, depth of field, natural color tones\n",
+        "",
         "."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "CLIPTextEncode",
+      "pos": [
+        3250.000457763672,
+        652.2582321166992
+      ],
+      "size": [
+        400,
+        200.85504150390625
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "clip",
+          "name": "clip",
+          "type": "CLIP",
+          "link": 659
+        }
+      ],
+      "outputs": [
+        {
+          "label": "CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            295
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.41",
+        "Node name for S&R": "CLIPTextEncode",
+        "ue_properties": {
+          "version": "7.1",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark,"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "CLIPTextEncode",
+      "pos": [
+        3453.4693908691406,
+        451.84620666503906
+      ],
+      "size": [
+        210.29940795898438,
+        88
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "clip",
+          "name": "clip",
+          "type": "CLIP",
+          "link": 660
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 701
+        }
+      ],
+      "outputs": [
+        {
+          "label": "CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            294
+          ]
+        }
+      ],
+      "title": ". Mô tả tiếng anh",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.41",
+        "Node name for S&R": "CLIPTextEncode",
+        "sdppp_widgetable_title": ". Mô tả tiếng anh",
+        "ue_properties": {
+          "version": "7.1",
+          "widget_ue_connectable": {
+            "text": true
+          },
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "woman"
+      ]
+    },
+    {
+      "id": 113,
+      "type": "PrimitiveString",
+      "pos": [
+        2551.100067342122,
+        242.0711850653754
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            696
+          ]
+        }
+      ],
+      "title": "#2 Mo ta bo sung (Eng)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "PrimitiveString",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        },
+        "sdppp_widgetable_title": "#2 Mo ta bo sung (Eng)"
+      },
+      "widgets_values": [
+        "beauty"
       ]
     },
     {
       "id": 25,
       "type": "KSampler",
       "pos": [
-        3709.52685546875,
-        785.8619384765625
+        3711.9268798828125,
+        809.8619384765625
       ],
       "size": [
         315,
         262
       ],
       "flags": {},
-      "order": 19,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -1239,61 +1338,21 @@
         }
       },
       "widgets_values": [
-        200250440200726,
+        801784610642718,
         "randomize",
         25,
-        6,
+        3.6,
         "euler_ancestral",
-        "sgm_uniform",
+        "simple",
         0.15
-      ]
-    },
-    {
-      "id": 115,
-      "type": "SimpleMathInt+",
-      "pos": [
-        3219.90007039388,
-        1047.67120642768
-      ],
-      "size": [
-        270,
-        58
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            692
-          ]
-        }
-      ],
-      "title": "#Steps ( 20-30)",
-      "properties": {
-        "cnr_id": "comfyui_essentials",
-        "ver": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9",
-        "Node name for S&R": "SimpleMathInt+",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.5.2"
-        },
-        "sdppp_widgetable_title": "#Steps ( 20-30)"
-      },
-      "widgets_values": [
-        25
       ]
     },
     {
       "id": 109,
       "type": "PrimitiveFloat",
       "pos": [
-        3285.934616088867,
-        1228.37890625
+        3245.934585571289,
+        1064.3788757324219
       ],
       "size": [
         270,
@@ -1327,15 +1386,15 @@
         }
       },
       "widgets_values": [
-        0.3
+        0.1
       ]
     },
     {
-      "id": 118,
+      "id": 115,
       "type": "SimpleMathInt+",
       "pos": [
-        1763.90007039388,
-        890.871142340766
+        3259.100021565755,
+        941.2712430487738
       ],
       "size": [
         270,
@@ -1350,75 +1409,159 @@
           "name": "INT",
           "type": "INT",
           "links": [
-            693,
-            694
+            692
           ]
         }
       ],
-      "title": "# pixels",
+      "title": "#Steps ( 20-30)",
       "properties": {
-        "cnr_id": "comfyui_essentials",
+        "aux_id": "cubiq/ComfyUI_essentials",
         "ver": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9",
         "Node name for S&R": "SimpleMathInt+",
+        "cnr_id": "comfyui_essentials",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
           "version": "7.5.2"
         },
-        "sdppp_widgetable_title": "# pixels"
+        "sdppp_widgetable_title": "#Steps ( 20-30)"
       },
       "widgets_values": [
-        1024
+        20
       ]
     },
     {
-      "id": 3,
-      "type": "CLIPTextEncode",
+      "id": 122,
+      "type": "PrimitiveString",
       "pos": [
-        3218.00048828125,
-        756.2582702636719
+        2462.3000337727863,
+        -111.32890038384335
       ],
       "size": [
-        400,
-        200.85504150390625
+        270,
+        58
       ],
-      "flags": {
-        "collapsed": false
+      "flags": {},
+      "order": 6,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            706
+          ]
+        }
+      ],
+      "title": "boy",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "PrimitiveString",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
       },
+      "widgets_values": [
+        "1boy"
+      ]
+    },
+    {
+      "id": 123,
+      "type": "PrimitiveString",
+      "pos": [
+        2447.1001588948566,
+        35.871066046820715
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            707
+          ]
+        }
+      ],
+      "title": "girl",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "PrimitiveString",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "1girl"
+      ]
+    },
+    {
+      "id": 126,
+      "type": "Fast Bypasser (rgthree)",
+      "pos": [
+        2846.563170889997,
+        -69.14862334471616
+      ],
+      "size": [
+        195.23984375,
+        122
+      ],
+      "flags": {},
       "order": 13,
       "mode": 0,
       "inputs": [
         {
-          "label": "clip",
-          "name": "clip",
-          "type": "CLIP",
-          "link": 659
+          "dir": 3,
+          "name": "boy",
+          "type": "*",
+          "link": 706
+        },
+        {
+          "dir": 3,
+          "name": "girl",
+          "type": "*",
+          "link": 707
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
         }
       ],
       "outputs": [
         {
-          "label": "CONDITIONING",
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
           "links": [
-            295
+            708
           ]
         }
       ],
+      "title": "#1 sex2",
       "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.41",
-        "Node name for S&R": "CLIPTextEncode",
+        "toggleRestriction": "max one",
         "ue_properties": {
-          "version": "7.1",
           "widget_ue_connectable": {},
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark,"
-      ]
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        },
+        "sdppp_widgetable_title": "#1 sex2"
+      }
     }
   ],
   "links": [
@@ -1671,22 +1814,6 @@
       "MODEL"
     ],
     [
-      689,
-      112,
-      0,
-      18,
-      1,
-      "STRING"
-    ],
-    [
-      690,
-      113,
-      0,
-      112,
-      0,
-      "STRING"
-    ],
-    [
       692,
       115,
       0,
@@ -1709,6 +1836,46 @@
       102,
       4,
       "INT"
+    ],
+    [
+      696,
+      113,
+      0,
+      121,
+      1,
+      "STRING"
+    ],
+    [
+      701,
+      121,
+      0,
+      18,
+      1,
+      "STRING"
+    ],
+    [
+      706,
+      122,
+      0,
+      126,
+      0,
+      "STRING"
+    ],
+    [
+      707,
+      123,
+      0,
+      126,
+      1,
+      "STRING"
+    ],
+    [
+      708,
+      126,
+      0,
+      121,
+      0,
+      "STRING"
     ]
   ],
   "groups": [
@@ -1778,8 +1945,8 @@
     "ds": {
       "scale": 1,
       "offset": [
-        -2248.6999971516925,
-        -347.6711606513129
+        -2320.9631953040594,
+        322.74867522459897
       ]
     },
     "frontendVersion": "1.34.9",
