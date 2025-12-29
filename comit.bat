@@ -9,7 +9,7 @@ echo ===========================
 echo Git Auto Commit & Push
 echo ===========================
 
-git add -A
+git add .
 git commit -m "%msg%"
 git push
 
