@@ -2,7 +2,7 @@
   "id": "aea4a730-5c95-4da1-9eaa-233e0cea75b7",
   "revision": 0,
   "last_node_id": 131,
-  "last_link_id": 711,
+  "last_link_id": 712,
   "nodes": [
     {
       "id": 5,
@@ -1460,102 +1460,6 @@
       ]
     },
     {
-      "id": 3,
-      "type": "CLIPTextEncode",
-      "pos": [
-        3361.200469970703,
-        -23.74182891845703
-      ],
-      "size": [
-        400,
-        200.85504150390625
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 19,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "clip",
-          "name": "clip",
-          "type": "CLIP",
-          "link": 659
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "link": 711
-        }
-      ],
-      "outputs": [
-        {
-          "label": "CONDITIONING",
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
-          "links": [
-            295
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.41",
-        "Node name for S&R": "CLIPTextEncode",
-        "ue_properties": {
-          "version": "7.1",
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "negative"
-      ]
-    },
-    {
-      "id": 129,
-      "type": "PrimitiveString",
-      "pos": [
-        2363.3628992835515,
-        -51.348811027821625
-      ],
-      "size": [
-        270,
-        58
-      ],
-      "flags": {},
-      "order": 8,
-      "mode": 4,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            709
-          ]
-        }
-      ],
-      "title": "Soft",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.6.0",
-        "Node name for S&R": "PrimitiveString",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.5.2"
-        }
-      },
-      "widgets_values": [
-        "worst quality,low quality,lowres,watermark"
-      ]
-    },
-    {
       "id": 126,
       "type": "Fast Bypasser (rgthree)",
       "pos": [
@@ -1614,15 +1518,15 @@
       "id": 130,
       "type": "PrimitiveString",
       "pos": [
-        2183.363006095075,
-        143.8511248852643
+        2189.7630305091375,
+        41.45116150635806
       ],
       "size": [
         450,
         104.4000244140625
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1634,7 +1538,7 @@
           ]
         }
       ],
-      "title": "Sharpen",
+      "title": "D & B",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.6.0",
@@ -1647,6 +1551,45 @@
       },
       "widgets_values": [
         "(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark"
+      ]
+    },
+    {
+      "id": 129,
+      "type": "PrimitiveString",
+      "pos": [
+        2185.762923697614,
+        -114.54882323485288
+      ],
+      "size": [
+        515.5999755859375,
+        77.19998168945312
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            709
+          ]
+        }
+      ],
+      "title": "Soft",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "PrimitiveString",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "worst quality,lowres,watermark"
       ]
     },
     {
@@ -1672,7 +1615,7 @@
         },
         {
           "dir": 3,
-          "name": "Sharpen",
+          "name": "D & B",
           "type": "*",
           "link": 710
         },
@@ -1689,7 +1632,7 @@
           "name": "OPT_CONNECTION",
           "type": "*",
           "links": [
-            711
+            712
           ]
         }
       ],
@@ -1703,6 +1646,63 @@
         },
         "sdppp_widgetable_title": "# Images"
       }
+    },
+    {
+      "id": 3,
+      "type": "CLIPTextEncode",
+      "pos": [
+        3260.4005432128906,
+        -58.141761779785156
+      ],
+      "size": [
+        400,
+        200.85504150390625
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "clip",
+          "name": "clip",
+          "type": "CLIP",
+          "link": 659
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 712
+        }
+      ],
+      "outputs": [
+        {
+          "label": "CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            295
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.41",
+        "Node name for S&R": "CLIPTextEncode",
+        "ue_properties": {
+          "version": "7.1",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        ""
+      ]
     }
   ],
   "links": [
@@ -2035,7 +2035,7 @@
       "STRING"
     ],
     [
-      711,
+      712,
       131,
       0,
       3,
@@ -2110,8 +2110,8 @@
     "ds": {
       "scale": 1,
       "offset": [
-        -2067.8678511482644,
-        419.0271051946447
+        -2105.4677046638894,
+        544.6270807805822
       ]
     },
     "frontendVersion": "1.34.9",
